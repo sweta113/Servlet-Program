@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Page</title>
+</head>
+<style>
+ h2{
+      text-align: center;
+    }
+    body{
+      background-color: lightgreen;
+     margin: 0;
+    }
+     input{
+      height: 30px;
+      border-radius: 10px;
+    }
+    input:focus{
+      outline: none;
+      border:1px solid forestgreen;
+    }
+    .button{
+      background-color: seagreen;
+      color: white;
+      font-size: 20px;
+      padding: 0px 25px;
+      border:none;
+      margin-bottom: 30px;
+
+    }
+    .button:hover{
+      cursor: pointer;
+      box-shadow: 5px 6px 5px forestgreen;
+    }
+</style>
+<body>
+<h2>Register Page</h2>
+<form action="rg">
+<table>
+<tr>
+<td>User Name</td>
+<td>  <input type="text" name="un" placeholder="Username" size="35"> </td>
+</tr>
+<tr>
+<td>Password</td>
+<td> <input type="text" name="psw" placeholder="Password" size="35"> </td>
+</tr>
+<tr>
+<td>Conform Password</td>
+<td> <input type="text" placeholder="Re-Password" size="35"> </td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input type="submit" value="Register" class="button">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
